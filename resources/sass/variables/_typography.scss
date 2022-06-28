@@ -1,0 +1,21 @@
+@font-face {
+   font-family: 'Fajalla';
+   src: url("/imports/typography/FjallaOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'ApercuPro-Regular';
+   src: url("/imports/typography/ApercuPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: 'ApercuPro-Medium';
+   src: url("/imports/typography/ApercuPro-Medium.ttf") format("truetype");
+}
+
+$tg-fjalla: 'Fjalla', sans-serif;
+$tg-apercu-medium: 'ApercuPro-Medium', sans-serif;
+
+
+$tg-first: $tg-fjalla;
+$tg-second: $tg-apercu-medium;

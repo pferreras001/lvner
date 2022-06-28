@@ -1,0 +1,65 @@
+.contact{
+  padding: 0;
+  background: $color-black01;
+}
+
+.contact__container{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 150px;
+}
+
+.contact__right, .contact__left{
+  width: 100%;
+}
+
+.contact__right{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.contact__right div{
+  color: $color-gray01;
+  text-align: right;
+}
+
+.contact__right h1{
+  font-size: 80px;
+}
+
+.contact__right h3{
+  font-size: 15px;
+}
+
+.contact__left img{
+  width: 100%;
+}
+
+@media #{$breakpoints-medium} {
+
+.contact__container{
+  margin-top: 0;
+}
+
+.contact__container{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact__right, .contact__left{
+  width: 50%;
+}
+
+}
+
+@media #{$breakpoints-large} {
+
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

@@ -1,0 +1,61 @@
+.home{
+  padding: 0;
+}
+
+.home__container{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 1400px;
+}
+
+.home__left{
+  width: 35%;
+  z-index: 10;
+}
+
+.home__left .icon{
+  margin: 100px 0 0 100px;
+  height: 200px;
+}
+
+.home__right{
+  overflow: hidden;
+  text-align: right;
+  width: 65%;
+  z-index:5;
+}
+
+.home__right img{
+  height: 900px;
+}
+
+@media #{$breakpoints-medium} {
+
+.home__left .icon{
+  height: 800px;
+}
+
+.home__right img{
+  height: 1400px;
+}
+
+}
+
+@media #{$breakpoints-large} {
+
+.home__left .icon{
+  height: 1100px;
+}
+
+.home__right img{
+  height: 1500px;
+}
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}

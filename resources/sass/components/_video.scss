@@ -1,0 +1,41 @@
+.video{
+  padding:0;
+}
+
+.video__container{
+
+}
+
+.video__container iframe, .video__container video{
+  height: 200px;
+  left: 50%;
+  position:absolute !important;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  z-index: 15;
+}
+
+@media #{$breakpoints-medium} {
+
+.video__container iframe, .video__container video{
+  height: 350px;
+}
+
+}
+
+
+@media #{$breakpoints-large} {
+
+.video__container iframe, .video__container video{
+  height: 400px;
+  width: 600px;
+
+}
+
+
+}
+
+
+@media #{$breakpoints-xlarge} {
+
+}
